@@ -1,0 +1,21 @@
+{
+    "name": "zhangjianping/frequency",
+    "description": "use redis implementation restrict system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zjp",
+            "email": "675456360@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"predis/predis": "v1.1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Zhangjianping\\Frequency\\": "src/"
+		}
+	}
+}
